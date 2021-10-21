@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: size 16px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%)
+}
+
+.container{
+         max-width:960px;
+         margin: 0 auto;
+}
+.warriper{
+       display: grid;
+       border-radius: 7px;
+       overflow: hidden;
+       background-color: white;
+       grid-template-columns: 50% 50%;
+       grid-template-areas: "a a" "b c";
+       
+       
+}
+.box-join{
+       grid-area: a;
+       margin: 50px 20px;
+      
+      
+}
+.box-sub{
+        grid: b;
+        background-color:hsl(179, 62%, 43%);
+}
+.box-sub-right{
+        grid: c;
+        background-color: hsl(179, 62%, 50%)  ;
+}
+.box-join h2{
+       margin: 10px 5px;
+       color:hsl(179, 62%, 43%);
+}
+.box-join h4{
+        margin: 10px 5px;
+        color:hsl(71, 73%, 54%);
+}
+.box-join p{
+      color: hsl(200, 4%, 83%);
+      line-height: 1.4;
+}
+.box-sub{
+      padding:40px 15px;
+      text-align: center;
+}
+.box-sub h3{
+        margin: 20px 15px;
+        color:hsl(204, 43%, 93%)
+}
+.box-sub span{
+        margin: 20px 5px;
+        color:hsl(71, 73%, 54%)
+
+        
+}
+.box-sub p{
+         margin-bottom: 50px ;
+        color: hsl(204, 43%, 93%);
+       
+}
+.box-sub a{
+       text-decoration: none;
+       background-color: hsla(71, 85%, 51%, 0.801) ;
+       color: white;
+       padding: 20px 80px;
+       border-radius: 12px;
+       box-shadow: 0 0 10px black;
+}
+.box-sub-right{
+           padding-left:100px;
+
+}
+.box-sub-right h2{
+      color: white;
+      margin: 20px 15px;
+     
+}
+.box-sub-right li{
+    text-decoration: none;
+    overflow: hidden;
+    margin: 10px 5px;
+    color: hsl(0, 14%, 93%)
+}
